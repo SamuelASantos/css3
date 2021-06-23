@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bordas</title>
+    <style type="text/css">
+       #conteudo {
+            /* border: 1px solid red; */ /* border: → Usado para colocar uma borda. Propriedade que pode ser usada na maioria das TAGS 
+                                                1º parâmetro = espessura da borda em px;
+                                                2º parâmetro = tipos;
+                                                    https://www.w3schools.com/css/css_border.asp <- Os tipos de bordas existentes
+                                                3º parâmetro = cor */
+            border-color: green yellow blue pink; /* border-color: → Usado para ser mais específico quanto as cores da borda 
+                                                                - 1º parâmetro = Cor de cima
+                                                                - 2º parâmetro = Cor da direita
+                                                                    - Ao definir apenas 2 valores, o 1º parâmetro será aplicado na parte superior e inferior e o 2º parâmetro na parte esquerda e direita
+                                                                - 3º parâmetro = Cor de baixo
+                                                                - 4º parâmetro = Cor da esquerda */
+            border-style: solid dotted dashed outset; /* border-style: → Define o estilo das bordas
+                                                            - 1º parâmetro = Estilo de cima
+                                                            - 2º parâmetro = Estilo da direita
+                                                                - Ao definir apenas 2 valores, o 1º parâmetro será aplicado na parte superior e inferior e o 2º parâmetro na parte esquerda e direita
+                                                            - 3º parâmetro = Estilo de baixo
+                                                            - 4º parâmetro = Estilo da esquerda*/
+            border-width: 5px 4px 3px 2px; /* border-width: → Define espessura das bordas 
+                                                - 1º parâmetro = Espessura de cima
+                                                - 2º parâmetro = Espessura da direita
+                                                    - Ao definir apenas 2 valores, o 1º parâmetro será aplicado na parte superior e inferior e o 2º parâmetro na parte esquerda e direita
+                                                - 3º parâmetro = Espessura de baixo
+                                                - 4º parâmetro = Espessura da esquerda */
+       }
+    </style>
+</head>
+<body>
+    <div id="conteudo">
+        Bordas <br/>
+        Bordas <br/>
+        Bordas <br/>
+    </div>
+</body>
+</html>
