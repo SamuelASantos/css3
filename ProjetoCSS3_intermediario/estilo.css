@@ -1,0 +1,30 @@
+/* MODELO DE CAIXA */
+.conteudo {
+    border: 1px solid #FF0000;
+    /* padding-top: 10px; padding-top → espaçamento interno superior
+    padding-right: 15px; padding-right → espaçamento interno da direita
+    padding-bottom: 20px; padding-botton → espaçamento interno inferior
+    padding-left: 25px; padding-left → espaçamento interno da esquerda */
+
+    padding: 10px 15px 20px 25px; /* padding: → espaçamento interno 
+                                        - 1º parâmetro = espaçamento interno superior
+                                            - Ao colocar apenas um parâmetro todos os lados terão o mesmo espaçamento indicado
+                                        - 2º parâmetro = espaçamento interno da direita
+                                            - Ao colocar apenas 2 parâmetros o primeiro parâmetro se referirá ao superior e inferior e o segundo parâmetro ao parte direita e esquerda
+                                        - 3º parâmetro = espaçamento interno inferior
+                                        - 4º parâmetro = espaçamento interno da esquerda */
+
+    /* margin-top: 10px; margin-top → espaçamento externo superior
+    margin-right: 15px; margin-right → espaçamento externo da direita
+    margin-bottom: 20px; margin-botton → espaçamento externo inferior
+    margin-left: 25px; margin-left → espaçamento externo da esquerda */
+
+    margin: 10px 15px 20px 25px; /* margin: → espaçamento externo  
+                                    - 1º parâmetro = espaçamento externo superior
+                                        - Ao colocar apenas um parâmetro todos os lados terão o mesmo espaçamento indicado
+                                    - 2º parâmetro = espaçamento externo da direita
+                                        - Ao colocar apenas 2 parâmetros o primeiro parâmetro se referirá ao superior e inferior e o segundo parâmetro ao parte direita e esquerda
+                                    - 3º parâmetro = espaçamento externo inferior
+                                    - 4º parâmetro = espaçamento externo da esquerda */
+                                    /* OBS: Margin-collapse (Ao definir um espaçamento que se cruza com outro, a margin maior será aplicada) */ 
+}
