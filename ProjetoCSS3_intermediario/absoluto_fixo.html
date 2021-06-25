@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style type="text/css">
+        * {
+            margin: 0; 
+            padding: 0;
+        }
+        #principal {
+            width: 920px;
+            background: black;
+            position: relative;
+        }
+        .container {
+            background: gray;
+            border: 1px solid red;
+            margin: 10px;
+            padding: 10px;
+            width: 300px;
+        }
+        .container2 {
+            position: absolute; /* absolute → Define uma caixa que é removida do fluxo do documento e consegue alinha a caixa baseado no seu container que tenha uma position. Caso o container não possua uma position, ela se alinha baseando no body (Absoluto) 
+                                        - OBS: O elemento acompanha a rolagem da página*/
+            top: 0;
+            right: 0;
+        }
+        .container3 {
+            position: fixed; /* - fixed → Alinhado baseado na janela do navegador (Fixo)
+                                    - OBS: O elemento fica fixo na tela em relação a janela do navegador
+                                - Para que o position funcione é necessário usar propriedade de deslocamento para movimentar o elemento */
+            top: 0;
+            right: 0;
+        }
+    </style>
+
+    <title>Posicionamento absoluto e fixo</title>
+</head>
+<body>
+    <div id="principal">
+        <div class="container">
+            <h3>Título 1</h3>
+            <p>Sed accumsan dolor libero, ut efficitur tortor hendrerit eu. Nunc maximus est sed orci placerat, nec dignissim nisi pellentesque. Aenean nec cursus turpis. Etiam ac sodales ipsum. Phasellus placerat posuere nunc, vitae volutpat nisi tristique a. Suspendisse sit amet urna vitae dui accumsan maximus blandit vitae nibh. Sed egestas velit eget nisi commodo tristique. </p>
+        </div>
+        <div class="container container2">
+            <h3>Título 2</h3>
+            <p>Sed accumsan dolor libero, ut efficitur tortor hendrerit eu. Nunc maximus est sed orci placerat, nec dignissim nisi pellentesque. Aenean nec cursus turpis. Etiam ac sodales ipsum. Phasellus placerat posuere nunc, vitae volutpat nisi tristique a. Suspendisse sit amet urna vitae dui accumsan maximus blandit vitae nibh. Sed egestas velit eget nisi commodo tristique. </p>
+        </div>
+        <div class="container container3">
+            <h3>Título 3</h3>
+            <p>Sed accumsan dolor libero, ut efficitur tortor hendrerit eu. Nunc maximus est sed orci placerat, nec dignissim nisi pellentesque. Aenean nec cursus turpis. Etiam ac sodales ipsum. Phasellus placerat posuere nunc, vitae volutpat nisi tristique a. Suspendisse sit amet urna vitae dui accumsan maximus blandit vitae nibh. Sed egestas velit eget nisi commodo tristique. </p>
+        </div>
+        <div class="container">
+            <h3>Título 4</h3>
+            <p>Sed accumsan dolor libero, ut efficitur tortor hendrerit eu. Nunc maximus est sed orci placerat, nec dignissim nisi pellentesque. Aenean nec cursus turpis. Etiam ac sodales ipsum. Phasellus placerat posuere nunc, vitae volutpat nisi tristique a. Suspendisse sit amet urna vitae dui accumsan maximus blandit vitae nibh. Sed egestas velit eget nisi commodo tristique. </p>
+        </div>
+        <div class="container">
+            <h3>Título 5</h3>
+            <p>Sed accumsan dolor libero, ut efficitur tortor hendrerit eu. Nunc maximus est sed orci placerat, nec dignissim nisi pellentesque. Aenean nec cursus turpis. Etiam ac sodales ipsum. Phasellus placerat posuere nunc, vitae volutpat nisi tristique a. Suspendisse sit amet urna vitae dui accumsan maximus blandit vitae nibh. Sed egestas velit eget nisi commodo tristique. </p>
+        </div>
+        <div class="container">
+            <h3>Título 6</h3>
+            <p>Sed accumsan dolor libero, ut efficitur tortor hendrerit eu. Nunc maximus est sed orci placerat, nec dignissim nisi pellentesque. Aenean nec cursus turpis. Etiam ac sodales ipsum. Phasellus placerat posuere nunc, vitae volutpat nisi tristique a. Suspendisse sit amet urna vitae dui accumsan maximus blandit vitae nibh. Sed egestas velit eget nisi commodo tristique. </p>
+        </div>
+    </div>
+</body>
+</html>
