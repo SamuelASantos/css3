@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos Flutuantes</title>
+
+    <style type="text/css">
+        .conteudo {
+            border: 3px solid #FF0000;
+            background: #00FF00;
+            width: 200px;
+            height: 200px;
+            float: left; /* float: → Definida, faz com que os conteúdos saiam de seu fluxo normal e flutuem, podendo ficar sobreposta a outros elementos 
+                            - left → Flutua para esquerda
+                            - right → Flutua para direita
+                            - none → Nada acontece (padrão)
+                                - OBS: ao definir o lado flutuante em vários elementos, eles se comportarão como na horizontal e, se o elemento não couber na página, o elemento irá quebrar a linha indo para baixo*/
+        }
+        .clear {
+            clear: right; /* clear: → Retira o fluxo padrão dos elementos flutuantes em textos 
+                                Quando usamos um elemento flutuante em textos, eles se adaptam aos elementos preenchendo os espaços disponíveis. Se quisermos que o texto realmente fique abaixo e ignore os espaços deixado, usamos a propriedade CLEAR 
+                                - left → Limpa o efeito flutuante da esquerda
+                                - right → Limpa o efeito flutuante da direita
+                                - both → Limpa o efeito flutuante independente se está na esquerda ou na direita
+                                - none → Não limpa o efeito flutuante*/
+        }
+    </style>
+
+</head>
+<body>
+    
+    <div class="conteudo">Conteudo 1</div>
+    <div class="conteudo">Conteudo 2</div>
+    <div class="conteudo">Conteudo 3</div>
+    <div><p class="clear">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras id ipsum tristique, ullamcorper mauris at, gravida felis. Nullam ligula neque, facilisis ut lorem sed, scelerisque maximus quam. Maecenas sed molestie massa. Donec tincidunt auctor augue ut dictum. Proin imperdiet nisi tempus consectetur auctor. Sed efficitur porttitor neque pellentesque dapibus. Cras orci nisl, aliquam a orci interdum, vestibulum lacinia urna. Sed nec tincidunt risus. Fusce fringilla velit in libero ultrices mattis. Nunc eget blandit diam, a faucibus eros. Nulla euismod odio vel pulvinar lobortis. Cras vel facilisis quam. Nam nunc elit, tristique quis elit blandit, malesuada cursus purus. Nulla sem diam, faucibus aliquet libero a, placerat pulvinar nunc. Maecenas eros lectus, sodales eu pellentesque eget, imperdiet vitae nulla. In rutrum felis non mauris condimentum, non vulputate dui ullamcorper.
+
+        Sed accumsan dolor libero, ut efficitur tortor hendrerit eu. Nunc maximus est sed orci placerat, nec dignissim nisi pellentesque. Aenean nec cursus turpis. Etiam ac sodales ipsum. Phasellus placerat posuere nunc, vitae volutpat nisi tristique a. Suspendisse sit amet urna vitae dui accumsan maximus blandit vitae nibh. Sed egestas velit eget nisi commodo tristique. Sed quis justo enim. Nulla at mauris maximus, faucibus nibh ac, ornare risus. Quisque volutpat vel turpis et condimentum. Etiam et porttitor risus. In vitae felis et orci ultricies dictum.</p></div>
+</body>
+</html>
