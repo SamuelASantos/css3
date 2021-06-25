@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style type="text/css">
+        * {
+            margin: 0; 
+            padding: 0;
+        }
+        #principal {
+            width: 920px;
+            background: black;
+        }
+        .container {
+            background: gray;
+            border: 1px solid red;
+            margin: 10px;
+            padding: 10px;
+            width: 300px;
+        }
+        .container2 {
+            position: relative; /* position: → Modifica a posição do elemento 
+                                        relative → Relativo ao próprio elemento 
+                                            - Para que o position funcione é necessário usar propriedade de deslocamento para movimentar o elemento */
+            left: 50px; /* left: → Propriedade de deslocamento para movimentar o elemento a partir da sua posição padrão empurrando a parte esquerda 
+                                - As outras propriedades são: top: bottom: e right:
+                                    OBS: Os valores podem conter números negativos */
+        }
+        .container3 {
+            position: static; /* static → Posicionamento padrão dos elementos (Estático) */
+            left: 50px;
+        }
+    </style>
+
+    <title>Posicionamento estático e relativo</title>
+</head>
+<body>
+    <div id="principal">
+        <div class="container">
+            <h3>Título 1</h3>
+            <p>Sed accumsan dolor libero, ut efficitur tortor hendrerit eu. Nunc maximus est sed orci placerat, nec dignissim nisi pellentesque. Aenean nec cursus turpis. Etiam ac sodales ipsum. Phasellus placerat posuere nunc, vitae volutpat nisi tristique a. Suspendisse sit amet urna vitae dui accumsan maximus blandit vitae nibh. Sed egestas velit eget nisi commodo tristique. </p>
+        </div>
+        <div class="container container2">
+            <h3>Título 2</h3>
+            <p>Sed accumsan dolor libero, ut efficitur tortor hendrerit eu. Nunc maximus est sed orci placerat, nec dignissim nisi pellentesque. Aenean nec cursus turpis. Etiam ac sodales ipsum. Phasellus placerat posuere nunc, vitae volutpat nisi tristique a. Suspendisse sit amet urna vitae dui accumsan maximus blandit vitae nibh. Sed egestas velit eget nisi commodo tristique. </p>
+        </div>
+        <div class="container container3">
+            <h3>Título 3</h3>
+            <p>Sed accumsan dolor libero, ut efficitur tortor hendrerit eu. Nunc maximus est sed orci placerat, nec dignissim nisi pellentesque. Aenean nec cursus turpis. Etiam ac sodales ipsum. Phasellus placerat posuere nunc, vitae volutpat nisi tristique a. Suspendisse sit amet urna vitae dui accumsan maximus blandit vitae nibh. Sed egestas velit eget nisi commodo tristique. </p>
+        </div>
+    </div>
+</body>
+</html>
