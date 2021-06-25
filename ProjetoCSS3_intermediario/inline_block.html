@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style type="text/css">
+        h1, span {
+            border: 1px solid red;
+        }
+        .block {
+            /* display: → Modifica a forma de visualização de um elemento */
+            display: block; /* block → Ocupa todo o espaço em tela e os elementos ficam um abaixo do outro */
+        }
+        .inline {
+            display: inline; /* inline → Ocupa o espaço do conteúdo e os elemento ficam um ao lado do outro */
+        }
+        .inline_block {
+            display: inline-block; /* inline-block → Forma híbrida. Ocupa o espaço do conteúdo e os elementos ficarão um ao lado do outro enquanto cabem na mesma linha, quando não couber, os elementos ficarão um abaixo do outro */
+        }
+    </style>
+
+    <title>Elementos inline, block e inline-block</title>
+</head>
+<body>
+    <h1>Block 1</h1>
+    <h1>Block 2</h1>
+
+    <span>Inline 1</span>
+    <span>Inline 2</span> <br/><br/>
+
+    <!-- Modificando a forma de exibição padrão dos elementos -->
+    <span class="inline_block">
+        Inline-block 1 Sed accumsan dolor libero, ut efficitur tortor hendrerit eu. Nunc maximus est sed orci placerat, nec dignissim nisi pellentesque. Aenean nec cursus turpis. Etiam ac sodales ipsum. Etiam ac sodales ipsum. 
+    </span>
+    <span>Inline-block 2</span><br/><br/>
+
+    <h1 class="inline">Block 1</h1>
+    <h1 class="inline">Block 2</h1> <br/><br/>
+    
+    <span class="block">Inline 1</span>
+    <span class="block">Inline 2</span>
+</body>
+</html>
