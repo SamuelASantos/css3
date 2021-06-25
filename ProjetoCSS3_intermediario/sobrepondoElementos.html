@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style type="text/css">
+        #container1 {
+            background: orange;
+            width: 200px;
+            height: 200px;
+            border: 1px solid black;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 0; /* z-index: → Define que elemento estará na camada de cima. Quanto maior o número, mais a frente ele ficará na camada. Por padrão a ordem segue a codificação feita */
+        }
+        #container2 {
+            background: green;
+            width: 200px;
+            height: 200px;
+            border: 1px solid black;
+            position: absolute;
+            top: 80px;
+            left: 80px;
+            z-index: 2;
+        }
+        #container3 {
+            background: yellow;
+            width: 200px;
+            height: 200px;
+            border: 1px solid black;
+            position: absolute;
+            top: 160px;
+            left: 160px;
+            z-index: 1;
+        }
+    </style>
+
+    <title>Sobrepondo Elementos</title>
+</head>
+<body>
+    <div id="container1">1</div>
+    <div id="container2">2</div>
+    <div id="container3">3</div>
+</body>
+</html>
