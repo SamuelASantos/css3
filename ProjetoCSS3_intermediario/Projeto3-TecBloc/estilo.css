@@ -1,0 +1,111 @@
+/* AREAS GERAIS */
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 1em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #e6e6e6;
+}
+.branco {
+    color: #FFF;
+}
+.postagem-data {
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+#area-cabecalho {
+    background: #f7b600;
+    padding: 15px;
+}
+#area-logo, #area-menu {
+    text-align: center;
+    padding: 10px;
+}
+#area-principal {
+    width: 920px;
+    margin: 0 auto;
+}
+#area-postagens {
+    width: 620px;
+    float: left;
+    padding: 20px;
+}
+.area-posts {
+    background: #FFF;
+    margin-bottom: 20px;
+}
+#area-lateral {
+    width: 250px;
+    float: right;
+    margin: 20px 5px 20px 0;
+}
+.area-widgets {
+    margin-bottom: 10px;
+}
+
+/* ÁREAS ESPECÍFICAS */
+#area-cabecalho h1 {
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+#area-menu a {
+    padding: 10px;
+    text-decoration: none;
+}
+#area-menu a:link, #area-menu a:visited{
+    color: #FFF;
+    padding: 8px 12px;
+}#area-menu a:hover, #area-menu a:active {
+    background: #FFF;
+    color: #f7b600;
+}
+.postagem {
+    padding: 20px;
+}
+.widget {
+    background: #FFF;
+    padding: 20px;
+    border-bottom: 1px solid #CCC;
+}
+#area-principal h2 {
+    color: #f7b600;
+    font-size: 1.5em;
+}
+#area-principal p {
+    font-size: 0.9em;
+}
+.postagem p {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+a {
+    text-decoration: none;
+}
+a:link, a:visited {
+    color: #f7b600;
+}
+a:hover {
+    text-decoration: underline;
+}
+.widget h3 {
+    color: #565656;
+    background: #CCC;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.widget p {
+    padding-bottom: 5px;
+}
+.widget hr {
+    margin-top: 10px;
+}
+#rodape {
+    clear: both;
+    text-align: center;
+    background: #CCC;
+    padding: 15px;
+}
